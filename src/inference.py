@@ -19,3 +19,5 @@ dreambooth_model.eval()
 subject_samples = generate_samples(dreambooth_model, num_samples=5)
 
 # Display or save the generated samples
+display_or_save_images(generated_samples, "generated_samples.png")
+display_or_save_images(subject_samples, "subject_samples.png")
