@@ -6,7 +6,7 @@ from models import FaceAutoencoder, LatentDiffusionModel
 from data_loading import prepare_data_loader
 
 # Define paths
-data_path = 'data/ffhq'
+data_path = 'data/ffhq256'
 log_path = 'logs/latent_diffusion'
 checkpoint_path = 'checkpoints/latent_diffusion.pth'
 

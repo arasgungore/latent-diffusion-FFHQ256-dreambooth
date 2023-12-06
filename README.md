@@ -9,7 +9,7 @@ An unconditional generative model trained on FFHQ face data set in 256×256 reso
 ```plaintext
 FaceGenerativeModel/
 |-- data/
-|   |-- ffhq/   # FFHQ dataset (downloaded separately)
+|   |-- ffhq256/   # FFHQ dataset (downloaded separately)
 |   |-- subject/   # Small face dataset of a single subject
 |-- diffusers/   # Cloned Diffusers library from HuggingFace
 |-- src/
@@ -37,7 +37,7 @@ FaceGenerativeModel/
 
 ## Data Preparation
 
-1. Download the FFHQ dataset from [here](https://www.kaggle.com/datasets/denislukovnikov/ffhq256-images-only) and save it in the `data/ffhq/` folder.
+1. Download the FFHQ dataset from [here](https://www.kaggle.com/datasets/denislukovnikov/ffhq256-images-only) and save it in the `data/ffhq256/` folder.
 2. Prepare a small face dataset of a single subject in the `data/subject/` folder using 10-15 photos.
 
 
